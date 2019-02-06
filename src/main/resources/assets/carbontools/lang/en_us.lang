@@ -1,0 +1,20 @@
+# Items
+item.ingot_scandium.name=Scandium Ingot
+item.ingot_enrichedscandium.name=Enriched Scandium
+item.scandium_sword.name=Scandium Sword
+item.scandium_pickaxe.name=Scandium Pickaxe
+item.scandium_shovel.name=Scandium Shovel
+item.scandium_axe.name=Scandium Axe
+
+# Armor
+item.scandium_helm.name=Scandium Helm
+item.scandium_chestplate.name=Scandium Chestplate
+item.scandium_leggins.name=Scandium Leggins
+item.scandium_boots.name=Scandium Boots
+
+# Blocks
+tile.ore_scandium.name=Scandium Ore
+
+
+# Creative tab
+itemGroup.infinitetools=Infinite Tools
