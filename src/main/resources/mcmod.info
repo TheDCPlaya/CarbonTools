@@ -1,7 +1,7 @@
 [
 {
   "modid": "carbontools",
-  "name": "CarbonTools Mod",
+  "name": "CarbonTools",
   "description": "",
   "version": "${version}",
   "mcversion": "${mcversion}",
