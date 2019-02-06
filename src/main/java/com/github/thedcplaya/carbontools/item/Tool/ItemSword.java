@@ -11,7 +11,7 @@ public class ItemSword extends net.minecraft.item.ItemSword {
     public ItemSword(ToolMaterial material, String name) {
         super(material);
         setRegistryName(name);
-        setUnlocalizedName(name);
+        setTranslationKey(name);
         this.name = name;
         setCreativeTab(CarbonTools.creativeTab);
     }

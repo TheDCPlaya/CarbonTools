@@ -14,9 +14,7 @@ public class CarbonToolsTab extends CreativeTabs
     }
 
     @Override
-    public ItemStack getTabIconItem() {
+    public ItemStack createIcon() {
         return new ItemStack(ModItems.ingotCarbon);
-
-
     }
 }

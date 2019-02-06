@@ -1,7 +1,6 @@
 package com.github.thedcplaya.carbontools.item;
 
 import com.github.thedcplaya.carbontools.CarbonTools;
-import com.github.thedcplaya.carbontools.block.BlockBase;
 import com.github.thedcplaya.carbontools.item.Tool.ItemAxe;
 import com.github.thedcplaya.carbontools.item.Tool.ItemPickaxe;
 import com.github.thedcplaya.carbontools.item.Tool.ItemShovel;
@@ -42,16 +41,12 @@ public class ModItems
                         carbonPickaxe,
                         carbonAxe,
                         carbonShovel,
-     //armor
+                        //armor
                         carbonHelm,
                         carbonChestplate,
                         carbonLeggins,
                         carbonBoots
                 );
-
-
-
-
     }
 
     public static void registerModels()
@@ -59,7 +54,7 @@ public class ModItems
         //items
         ingotCarbon.registerItemModel();
 
-       //Tools
+        //Tools
         carbonSword.registerItemModel();
         carbonPickaxe.registerItemModel();
         carbonAxe.registerItemModel();
@@ -70,11 +65,6 @@ public class ModItems
         carbonChestplate.registerItemModel();
         carbonLeggins.registerItemModel();
         carbonBoots.registerItemModel();
-
-
-
-
-
     }
 
 }
