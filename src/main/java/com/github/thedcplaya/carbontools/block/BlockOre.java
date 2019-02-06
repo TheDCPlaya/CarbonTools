@@ -7,7 +7,7 @@ public class BlockOre extends BlockBase
 {
     public BlockOre(String name)
     {
-        super(Material.ROCK);
+        super(Material.ROCK, name);
 
         setHardness(10f);
         setResistance(1f);

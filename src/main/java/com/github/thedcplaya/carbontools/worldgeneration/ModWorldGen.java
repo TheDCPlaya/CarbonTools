@@ -1,4 +1,4 @@
-package WorldGeneration;
+package com.github.thedcplaya.carbontools.worldgeneration;
 
 import com.github.thedcplaya.carbontools.block.ModBlocks;
 import net.minecraft.util.math.BlockPos;

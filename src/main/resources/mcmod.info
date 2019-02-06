@@ -2,13 +2,13 @@
 {
   "modid": "carbontools",
   "name": "CarbonTools",
-  "description": "",
+  "description": "Carbon Tools ",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
   "authorList": ["DCPlaya"],
-  "credits": "",
+  "credits": "DCPlaya, Jackyy VioletKitty87",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

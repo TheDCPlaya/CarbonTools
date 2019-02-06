@@ -7,7 +7,7 @@ public class BlockCarbon extends BlockBase
 {
     public BlockCarbon(String name)
     {
-        super(Material.ROCK);
+        super(Material.ROCK, name);
 
         setHardness(10f);
         setResistance(1f);

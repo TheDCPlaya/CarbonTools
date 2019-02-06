@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "C C",
+    "   "
+  ],
+  "key": {
+    "C": {
+      "item": "carbontools:ingot_carbon"
+    }
+  },
+  "result": {
+    "item": "carbontools:carbon_helm"
+  }
+}

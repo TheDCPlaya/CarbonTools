@@ -1,11 +1,11 @@
 package com.github.thedcplaya.carbontools;
 
-import WorldGeneration.ModWorldGen;
-import com.github.thedcplaya.carbontools.ModRecipes.ModRecipes;
 import com.github.thedcplaya.carbontools.block.ModBlocks;
 import com.github.thedcplaya.carbontools.item.ModItems;
+import com.github.thedcplaya.carbontools.modrecipes.ModRecipes;
 import com.github.thedcplaya.carbontools.proxy.CommonProxy;
 import com.github.thedcplaya.carbontools.util.CarbonToolsTab;
+import com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen;
 import net.minecraft.block.Block;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
@@ -35,7 +35,7 @@ public class CarbonTools
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-        GameRegistry.registerWorldGenerator( new ModWorldGen(), 3);
+        GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
     }
 
     @Mod.EventHandler
@@ -63,8 +63,9 @@ public class CarbonTools
         }
 
         @SubscribeEvent
-        public static void registerBlocks(RegistryEvent.Register<Block> event) {
-        ModBlocks.register(event.getRegistry());
+        public static void registerBlocks(RegistryEvent.Register<Block> event)
+        {
+            ModBlocks.register(event.getRegistry());
         }
 
         @SubscribeEvent
@@ -75,10 +76,11 @@ public class CarbonTools
         }
 
     }
+
     public static final CarbonToolsTab creativeTab = new CarbonToolsTab();
 
 
-    public static final Item.ToolMaterial carbonToolMaterial = EnumHelper.addToolMaterial("CARBON", 25, 0, 6, 999999, 14);
-    public static final ItemArmor.ArmorMaterial carbonArmorMaterial = EnumHelper.addArmorMaterial("CARBON", MODID + ":carbon", 0, new int[]{25, 25, 25, 25}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 500.0F);
+    public static final Item.ToolMaterial carbonToolMaterial = EnumHelper.addToolMaterial("CARBON", 15, 3500, 6, 12, 14);
+    public static final ItemArmor.ArmorMaterial carbonArmorMaterial = EnumHelper.addArmorMaterial("CARBON", MODID + ":carbon", 420, new int[]{25, 25, 25, 25}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 25.0F);
 }
 

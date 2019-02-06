@@ -1,20 +1,21 @@
 # Items
-item.ingot_scandium.name=Scandium Ingot
-item.ingot_enrichedscandium.name=Enriched Scandium
-item.scandium_sword.name=Scandium Sword
-item.scandium_pickaxe.name=Scandium Pickaxe
-item.scandium_shovel.name=Scandium Shovel
-item.scandium_axe.name=Scandium Axe
+item.ingot_carbon.name=Carbon Ingot
+item.carbon_sword.name=Carbon Sword
+item.carbon_pickaxe.name=Carbon Pickaxe
+item.carbon_shovel.name=Carbon Shovel
+item.carbon_axe.name=Carbon Axe
+item.carbon_hoe.name=Carbon Hoe
 
 # Armor
-item.scandium_helm.name=Scandium Helm
-item.scandium_chestplate.name=Scandium Chestplate
-item.scandium_leggins.name=Scandium Leggins
-item.scandium_boots.name=Scandium Boots
+item.carbon_helm.name=Carbon Helm
+item.carbon_chestplate.name=Carbon Chestplate
+item.carbon_leggins.name=Carbon Leggins
+item.carbon_boots.name=Carbon Boots
 
 # Blocks
-tile.ore_scandium.name=Scandium Ore
+tile.ore_carbon.name=Carbon Ore
+tile.carbon_block.name=Carbon Block
 
 
 # Creative tab
-itemGroup.infinitetools=Infinite Tools
+itemGroup.carbontools.Carbon Tools

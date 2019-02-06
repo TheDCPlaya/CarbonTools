@@ -1,0 +1,772 @@
+Symbol range map extraction starting
+Processing 18 files
+startProcessing "com\github\thedcplaya\carbontools\CarbonTools.java" md5: 0d909011068c039daaf6b10efd647248
+@|com\github\thedcplaya\carbontools\CarbonTools.java|8|41|com.github.thedcplaya.carbontools|package|com.github.thedcplaya.carbontools|(file)
+Class Start: com.github.thedcplaya.carbontools.CarbonTools
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1139|1142|Mod|class|net.minecraftforge.fml.common.Mod
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1143|1148|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1151|1162|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1163|1168|MODID|field|com.github.thedcplaya.carbontools.CarbonTools|MODID
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1170|1174|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1177|1188|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1189|1193|NAME|field|com.github.thedcplaya.carbontools.CarbonTools|NAME
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1195|1202|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1205|1216|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1217|1224|VERSION|field|com.github.thedcplaya.carbontools.CarbonTools|VERSION
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1239|1250|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1278|1284|String|class|java.lang.String
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1278|1284|String|class|java.lang.String
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1285|1290|MODID|field|com.github.thedcplaya.carbontools.CarbonTools|MODID|
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1332|1338|String|class|java.lang.String
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1332|1338|String|class|java.lang.String
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1339|1343|NAME|field|com.github.thedcplaya.carbontools.CarbonTools|NAME|
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1385|1391|String|class|java.lang.String
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1385|1391|String|class|java.lang.String
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1392|1399|VERSION|field|com.github.thedcplaya.carbontools.CarbonTools|VERSION|
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1455|1466|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1417|1429|Mod.Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1430|1435|MODID|field|com.github.thedcplaya.carbontools.CarbonTools|MODID
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1455|1466|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1467|1475|instance|field|com.github.thedcplaya.carbontools.CarbonTools|instance|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\github\thedcplaya\carbontools\CarbonTools.java|1550|1555|event|param|com.github.thedcplaya.carbontools.CarbonTools|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\github\thedcplaya\carbontools\CarbonTools.java|1483|1499|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\github\thedcplaya\carbontools\CarbonTools.java|1516|1523|preInit|method|com.github.thedcplaya.carbontools.CarbonTools|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\github\thedcplaya\carbontools\CarbonTools.java|1524|1549|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\github\thedcplaya\carbontools\CarbonTools.java|1571|1583|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com\github\thedcplaya\carbontools\CarbonTools.java|1584|1606|registerWorldGenerator|method|net.minecraftforge.fml.common.registry.GameRegistry|registerWorldGenerator|(Lnet/minecraftforge/fml/common/IWorldGenerator;I)V
+      @|com\github\thedcplaya\carbontools\CarbonTools.java|1611|1622|ModWorldGen|class|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\github\thedcplaya\carbontools\CarbonTools.java|1703|1708|event|param|com.github.thedcplaya.carbontools.CarbonTools|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\github\thedcplaya\carbontools\CarbonTools.java|1642|1658|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\github\thedcplaya\carbontools\CarbonTools.java|1675|1679|init|method|com.github.thedcplaya.carbontools.CarbonTools|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\github\thedcplaya\carbontools\CarbonTools.java|1680|1702|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\github\thedcplaya\carbontools\CarbonTools.java|1797|1802|event|param|com.github.thedcplaya.carbontools.CarbonTools|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com\github\thedcplaya\carbontools\CarbonTools.java|1728|1744|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\github\thedcplaya\carbontools\CarbonTools.java|1761|1769|postInit|method|com.github.thedcplaya.carbontools.CarbonTools|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\github\thedcplaya\carbontools\CarbonTools.java|1770|1796|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|com\github\thedcplaya\carbontools\CarbonTools.java|1818|1828|ModRecipes|class|com.github.thedcplaya.carbontools.modrecipes.ModRecipes
+      @|com\github\thedcplaya\carbontools\CarbonTools.java|1829|1833|init|method|com.github.thedcplaya.carbontools.modrecipes.ModRecipes|init|()V
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|2014|2025|CommonProxy|class|com.github.thedcplaya.carbontools.proxy.CommonProxy
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1849|1859|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1860|1870|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|1928|1938|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|2014|2025|CommonProxy|class|com.github.thedcplaya.carbontools.proxy.CommonProxy
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|2026|2031|proxy|field|com.github.thedcplaya.carbontools.CarbonTools|proxy|
+   Class Start: com.github.thedcplaya.carbontools.CarbonTools.RegistrationHandler
+      @|com\github\thedcplaya\carbontools\CarbonTools.java|2039|2061|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber
+      @|com\github\thedcplaya\carbontools\CarbonTools.java|2086|2105|RegistrationHandler|class|com.github.thedcplaya.carbontools.CarbonTools.RegistrationHandler
+      Method Start: registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2206|2211|event|param|com.github.thedcplaya.carbontools.CarbonTools.RegistrationHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2121|2135|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2163|2176|registerItems|method|com.github.thedcplaya.carbontools.CarbonTools.RegistrationHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2177|2199|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2200|2204|Item|class|net.minecraft.item.Item
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2235|2243|ModItems|class|com.github.thedcplaya.carbontools.item.ModItems
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2244|2252|register|method|com.github.thedcplaya.carbontools.item.ModItems|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2253|2258|event|param|com.github.thedcplaya.carbontools.CarbonTools.RegistrationHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2259|2270|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2287|2296|ModBlocks|class|com.github.thedcplaya.carbontools.block.ModBlocks
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2297|2315|registerItemBlocks|method|com.github.thedcplaya.carbontools.block.ModBlocks|registerItemBlocks|(Lnet/minecraftforge/registries/IForgeRegistry;)V
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2316|2321|event|param|com.github.thedcplaya.carbontools.CarbonTools.RegistrationHandler|registerItems|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2322|2333|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      Method End: registerItems(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      Method Start: registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2445|2450|event|param|com.github.thedcplaya.carbontools.CarbonTools.RegistrationHandler|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2358|2372|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2400|2414|registerBlocks|method|com.github.thedcplaya.carbontools.CarbonTools.RegistrationHandler|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2415|2437|RegistryEvent.Register|class|net.minecraftforge.event.RegistryEvent.Register
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2438|2443|Block|class|net.minecraft.block.Block
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2474|2483|ModBlocks|class|com.github.thedcplaya.carbontools.block.ModBlocks
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2484|2492|register|method|com.github.thedcplaya.carbontools.block.ModBlocks|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2493|2498|event|param|com.github.thedcplaya.carbontools.CarbonTools.RegistrationHandler|registerBlocks|(Lnet/minecraftforge/event/RegistryEvent$Register;)V|event|0
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2499|2510|getRegistry|method|net.minecraftforge.event.RegistryEvent.Register|getRegistry|()Lnet/minecraftforge/registries/IForgeRegistry;
+      Method End: registerBlocks(Lnet/minecraftforge/event/RegistryEvent$Register;)V
+      Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2611|2616|event|param|com.github.thedcplaya.carbontools.CarbonTools.RegistrationHandler|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2535|2549|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2577|2591|registerModels|method|com.github.thedcplaya.carbontools.CarbonTools.RegistrationHandler|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2592|2610|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2640|2648|ModItems|class|com.github.thedcplaya.carbontools.item.ModItems
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2649|2663|registerModels|method|com.github.thedcplaya.carbontools.item.ModItems|registerModels|()V
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2679|2688|ModBlocks|class|com.github.thedcplaya.carbontools.block.ModBlocks
+         @|com\github\thedcplaya\carbontools\CarbonTools.java|2689|2703|registerModels|method|com.github.thedcplaya.carbontools.block.ModBlocks|registerModels|()V
+      Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Class End  : com.github.thedcplaya.carbontools.CarbonTools.RegistrationHandler
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|2749|2763|CarbonToolsTab|class|com.github.thedcplaya.carbontools.util.CarbonToolsTab
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|2749|2763|CarbonToolsTab|class|com.github.thedcplaya.carbontools.util.CarbonToolsTab
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|2764|2775|creativeTab|field|com.github.thedcplaya.carbontools.CarbonTools|creativeTab|
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|2782|2796|CarbonToolsTab|class|com.github.thedcplaya.carbontools.util.CarbonToolsTab
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|2826|2843|Item.ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|2826|2843|Item.ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|2844|2862|carbonToolMaterial|field|com.github.thedcplaya.carbontools.CarbonTools|carbonToolMaterial|
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|2865|2875|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|2876|2891|addToolMaterial|method|net.minecraftforge.common.util.EnumHelper|addToolMaterial|(Ljava/lang/String;IIFFI)Lnet/minecraft/item/Item$ToolMaterial;
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|2948|2971|ItemArmor.ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|2948|2971|ItemArmor.ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|2972|2991|carbonArmorMaterial|field|com.github.thedcplaya.carbontools.CarbonTools|carbonArmorMaterial|
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|2994|3004|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|3005|3021|addArmorMaterial|method|net.minecraftforge.common.util.EnumHelper|addArmorMaterial|(Ljava/lang/String;Ljava/lang/String;I[IILnet/minecraft/util/SoundEvent;F)Lnet/minecraft/item/ItemArmor$ArmorMaterial;
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|3032|3037|MODID|field|com.github.thedcplaya.carbontools.CarbonTools|MODID
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|3086|3097|SoundEvents|class|net.minecraft.init.SoundEvents
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|3098|3119|ITEM_ARMOR_EQUIP_IRON|field|net.minecraft.init.SoundEvents|ITEM_ARMOR_EQUIP_IRON
+Class End  : com.github.thedcplaya.carbontools.CarbonTools
+endProcessing "com\github\thedcplaya\carbontools\CarbonTools.java"
+
+startProcessing "com\github\thedcplaya\carbontools\block\BlockBase.java" md5: b0781beeac64cedb57315695fa8df143
+@|com\github\thedcplaya\carbontools\block\BlockBase.java|8|47|com.github.thedcplaya.carbontools.block|package|com.github.thedcplaya.carbontools.block|(file)
+Class Start: com.github.thedcplaya.carbontools.block.BlockBase
+   @|com\github\thedcplaya\carbontools\block\BlockBase.java|314|323|BlockBase|class|com.github.thedcplaya.carbontools.block.BlockBase
+   @|com\github\thedcplaya\carbontools\block\BlockBase.java|332|337|Block|class|net.minecraft.block.Block
+   @|com\github\thedcplaya\carbontools\block\BlockBase.java|354|360|String|class|java.lang.String
+   @|com\github\thedcplaya\carbontools\block\BlockBase.java|354|360|String|class|java.lang.String
+   @|com\github\thedcplaya\carbontools\block\BlockBase.java|361|365|name|field|com.github.thedcplaya.carbontools.block.BlockBase|name|
+   Method Start: BlockBase(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|397|405|material|param|com.github.thedcplaya.carbontools.block.BlockBase|BlockBase|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|material|0
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|414|418|name|param|com.github.thedcplaya.carbontools.block.BlockBase|BlockBase|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|378|387|BlockBase|method|com.github.thedcplaya.carbontools.block.BlockBase|BlockBase|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|388|396|Material|class|net.minecraft.block.material.Material
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|407|413|String|class|java.lang.String
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|440|448|material|param|com.github.thedcplaya.carbontools.block.BlockBase|BlockBase|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|material|0
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|465|469|name|field|com.github.thedcplaya.carbontools.block.BlockBase|name
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|472|476|name|param|com.github.thedcplaya.carbontools.block.BlockBase|BlockBase|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|487|504|setTranslationKey|method|net.minecraft.block.Block|setTranslationKey|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|505|509|name|param|com.github.thedcplaya.carbontools.block.BlockBase|BlockBase|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|520|535|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|536|540|name|param|com.github.thedcplaya.carbontools.block.BlockBase|BlockBase|(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|551|565|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|566|577|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|578|589|creativeTab|field|com.github.thedcplaya.carbontools.CarbonTools|creativeTab
+   Method End: BlockBase(Lnet/minecraft/block/material/Material;Ljava/lang/String;)V
+   Method Start: registerItemModel(Lnet/minecraft/item/Item;)V
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|638|647|itemBlock|param|com.github.thedcplaya.carbontools.block.BlockBase|registerItemModel|(Lnet/minecraft/item/Item;)V|itemBlock|0
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|615|632|registerItemModel|method|com.github.thedcplaya.carbontools.block.BlockBase|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|633|637|Item|class|net.minecraft.item.Item
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|663|674|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|675|680|proxy|field|com.github.thedcplaya.carbontools.CarbonTools|proxy
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|681|701|registerItemRenderer|method|com.github.thedcplaya.carbontools.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|702|711|itemBlock|param|com.github.thedcplaya.carbontools.block.BlockBase|registerItemModel|(Lnet/minecraft/item/Item;)V|itemBlock|0
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|716|720|name|field|com.github.thedcplaya.carbontools.block.BlockBase|name
+   Method End: registerItemModel(Lnet/minecraft/item/Item;)V
+   Method Start: createItemblock()Lnet/minecraft/item/Item;
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|741|745|Item|class|net.minecraft.item.Item
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|746|761|createItemblock|method|com.github.thedcplaya.carbontools.block.BlockBase|createItemblock|()Lnet/minecraft/item/Item;
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|789|798|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|805|820|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|821|836|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: createItemblock()Lnet/minecraft/item/Item;
+   Method Start: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Lcom/github/thedcplaya/carbontools/block/BlockBase;
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|911|914|tab|param|com.github.thedcplaya.carbontools.block.BlockBase|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lcom/github/thedcplaya/carbontools/block/BlockBase;|tab|0
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|853|861|Override|class|java.lang.Override
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|873|882|BlockBase|class|com.github.thedcplaya.carbontools.block.BlockBase
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|883|897|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|898|910|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|936|950|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\github\thedcplaya\carbontools\block\BlockBase.java|951|954|tab|param|com.github.thedcplaya.carbontools.block.BlockBase|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lcom/github/thedcplaya/carbontools/block/BlockBase;|tab|0
+   Method End: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Lcom/github/thedcplaya/carbontools/block/BlockBase;
+Class End  : com.github.thedcplaya.carbontools.block.BlockBase
+endProcessing "com\github\thedcplaya\carbontools\block\BlockBase.java"
+
+startProcessing "com\github\thedcplaya\carbontools\block\BlockCarbon.java" md5: 881cefe95ac0b03666dcda394ba5927f
+@|com\github\thedcplaya\carbontools\block\BlockCarbon.java|8|47|com.github.thedcplaya.carbontools.block|package|com.github.thedcplaya.carbontools.block|(file)
+Class Start: com.github.thedcplaya.carbontools.block.BlockCarbon
+   @|com\github\thedcplaya\carbontools\block\BlockCarbon.java|157|168|BlockCarbon|class|com.github.thedcplaya.carbontools.block.BlockCarbon
+   @|com\github\thedcplaya\carbontools\block\BlockCarbon.java|177|186|BlockBase|class|com.github.thedcplaya.carbontools.block.BlockBase
+   Method Start: BlockCarbon(Ljava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\block\BlockCarbon.java|219|223|name|param|com.github.thedcplaya.carbontools.block.BlockCarbon|BlockCarbon|(Ljava/lang/String;)V|name|0
+      @|com\github\thedcplaya\carbontools\block\BlockCarbon.java|200|211|BlockCarbon|method|com.github.thedcplaya.carbontools.block.BlockCarbon|BlockCarbon|(Ljava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\block\BlockCarbon.java|212|218|String|class|java.lang.String
+      @|com\github\thedcplaya\carbontools\block\BlockCarbon.java|245|253|Material|class|net.minecraft.block.material.Material
+      @|com\github\thedcplaya\carbontools\block\BlockCarbon.java|254|258|ROCK|field|net.minecraft.block.material.Material|ROCK
+      @|com\github\thedcplaya\carbontools\block\BlockCarbon.java|260|264|name|param|com.github.thedcplaya.carbontools.block.BlockCarbon|BlockCarbon|(Ljava/lang/String;)V|name|0
+      @|com\github\thedcplaya\carbontools\block\BlockCarbon.java|276|287|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com\github\thedcplaya\carbontools\block\BlockCarbon.java|302|315|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+   Method End: BlockCarbon(Ljava/lang/String;)V
+   Method Start: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Lcom/github/thedcplaya/carbontools/block/BlockCarbon;
+      @|com\github\thedcplaya\carbontools\block\BlockCarbon.java|393|396|tab|param|com.github.thedcplaya.carbontools.block.BlockCarbon|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lcom/github/thedcplaya/carbontools/block/BlockCarbon;|tab|0
+      @|com\github\thedcplaya\carbontools\block\BlockCarbon.java|333|341|Override|class|java.lang.Override
+      @|com\github\thedcplaya\carbontools\block\BlockCarbon.java|353|364|BlockCarbon|class|com.github.thedcplaya.carbontools.block.BlockCarbon
+      @|com\github\thedcplaya\carbontools\block\BlockCarbon.java|365|379|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\github\thedcplaya\carbontools\block\BlockCarbon.java|380|392|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|com\github\thedcplaya\carbontools\block\BlockCarbon.java|414|428|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\github\thedcplaya\carbontools\block\BlockCarbon.java|429|432|tab|param|com.github.thedcplaya.carbontools.block.BlockCarbon|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lcom/github/thedcplaya/carbontools/block/BlockCarbon;|tab|0
+   Method End: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Lcom/github/thedcplaya/carbontools/block/BlockCarbon;
+Class End  : com.github.thedcplaya.carbontools.block.BlockCarbon
+endProcessing "com\github\thedcplaya\carbontools\block\BlockCarbon.java"
+
+startProcessing "com\github\thedcplaya\carbontools\block\BlockOre.java" md5: c8c5250008a363289816dfa89ad8c2d9
+@|com\github\thedcplaya\carbontools\block\BlockOre.java|8|47|com.github.thedcplaya.carbontools.block|package|com.github.thedcplaya.carbontools.block|(file)
+Class Start: com.github.thedcplaya.carbontools.block.BlockOre
+   @|com\github\thedcplaya\carbontools\block\BlockOre.java|157|165|BlockOre|class|com.github.thedcplaya.carbontools.block.BlockOre
+   @|com\github\thedcplaya\carbontools\block\BlockOre.java|174|183|BlockBase|class|com.github.thedcplaya.carbontools.block.BlockBase
+   Method Start: BlockOre(Ljava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\block\BlockOre.java|213|217|name|param|com.github.thedcplaya.carbontools.block.BlockOre|BlockOre|(Ljava/lang/String;)V|name|0
+      @|com\github\thedcplaya\carbontools\block\BlockOre.java|197|205|BlockOre|method|com.github.thedcplaya.carbontools.block.BlockOre|BlockOre|(Ljava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\block\BlockOre.java|206|212|String|class|java.lang.String
+      @|com\github\thedcplaya\carbontools\block\BlockOre.java|239|247|Material|class|net.minecraft.block.material.Material
+      @|com\github\thedcplaya\carbontools\block\BlockOre.java|248|252|ROCK|field|net.minecraft.block.material.Material|ROCK
+      @|com\github\thedcplaya\carbontools\block\BlockOre.java|254|258|name|param|com.github.thedcplaya.carbontools.block.BlockOre|BlockOre|(Ljava/lang/String;)V|name|0
+      @|com\github\thedcplaya\carbontools\block\BlockOre.java|270|281|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com\github\thedcplaya\carbontools\block\BlockOre.java|296|309|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+   Method End: BlockOre(Ljava/lang/String;)V
+   Method Start: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Lcom/github/thedcplaya/carbontools/block/BlockOre;
+      @|com\github\thedcplaya\carbontools\block\BlockOre.java|384|387|tab|param|com.github.thedcplaya.carbontools.block.BlockOre|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lcom/github/thedcplaya/carbontools/block/BlockOre;|tab|0
+      @|com\github\thedcplaya\carbontools\block\BlockOre.java|327|335|Override|class|java.lang.Override
+      @|com\github\thedcplaya\carbontools\block\BlockOre.java|347|355|BlockOre|class|com.github.thedcplaya.carbontools.block.BlockOre
+      @|com\github\thedcplaya\carbontools\block\BlockOre.java|356|370|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\github\thedcplaya\carbontools\block\BlockOre.java|371|383|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|com\github\thedcplaya\carbontools\block\BlockOre.java|405|419|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|com\github\thedcplaya\carbontools\block\BlockOre.java|420|423|tab|param|com.github.thedcplaya.carbontools.block.BlockOre|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lcom/github/thedcplaya/carbontools/block/BlockOre;|tab|0
+   Method End: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Lcom/github/thedcplaya/carbontools/block/BlockOre;
+Class End  : com.github.thedcplaya.carbontools.block.BlockOre
+endProcessing "com\github\thedcplaya\carbontools\block\BlockOre.java"
+
+startProcessing "com\github\thedcplaya\carbontools\block\ModBlocks.java" md5: 251bba015067cb6826f18d89b5fa4324
+@|com\github\thedcplaya\carbontools\block\ModBlocks.java|8|47|com.github.thedcplaya.carbontools.block|package|com.github.thedcplaya.carbontools.block|(file)
+Class Start: com.github.thedcplaya.carbontools.block.ModBlocks
+   @|com\github\thedcplaya\carbontools\block\ModBlocks.java|183|192|ModBlocks|class|com.github.thedcplaya.carbontools.block.ModBlocks
+   @|com\github\thedcplaya\carbontools\block\ModBlocks.java|224|232|BlockOre|class|com.github.thedcplaya.carbontools.block.BlockOre
+   @|com\github\thedcplaya\carbontools\block\ModBlocks.java|224|232|BlockOre|class|com.github.thedcplaya.carbontools.block.BlockOre
+   @|com\github\thedcplaya\carbontools\block\ModBlocks.java|233|242|oreCarbon|field|com.github.thedcplaya.carbontools.block.ModBlocks|oreCarbon|
+   @|com\github\thedcplaya\carbontools\block\ModBlocks.java|249|257|BlockOre|class|com.github.thedcplaya.carbontools.block.BlockOre
+   @|com\github\thedcplaya\carbontools\block\ModBlocks.java|304|315|BlockCarbon|class|com.github.thedcplaya.carbontools.block.BlockCarbon
+   @|com\github\thedcplaya\carbontools\block\ModBlocks.java|304|315|BlockCarbon|class|com.github.thedcplaya.carbontools.block.BlockCarbon
+   @|com\github\thedcplaya\carbontools\block\ModBlocks.java|316|327|blockCarbon|field|com.github.thedcplaya.carbontools.block.ModBlocks|blockCarbon|
+   @|com\github\thedcplaya\carbontools\block\ModBlocks.java|334|345|BlockCarbon|class|com.github.thedcplaya.carbontools.block.BlockCarbon
+   Method Start: register(Lnet/minecraftforge/registries/IForgeRegistry;)V
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|419|427|registry|param|com.github.thedcplaya.carbontools.block.ModBlocks|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V|registry|0
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|388|396|register|method|com.github.thedcplaya.carbontools.block.ModBlocks|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|397|411|IForgeRegistry|class|net.minecraftforge.registries.IForgeRegistry
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|412|417|Block|class|net.minecraft.block.Block
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|443|451|registry|param|com.github.thedcplaya.carbontools.block.ModBlocks|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V|registry|0
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|452|463|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|481|490|oreCarbon|field|com.github.thedcplaya.carbontools.block.ModBlocks|oreCarbon
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|508|519|blockCarbon|field|com.github.thedcplaya.carbontools.block.ModBlocks|blockCarbon
+   Method End: register(Lnet/minecraftforge/registries/IForgeRegistry;)V
+   Method Start: registerItemBlocks(Lnet/minecraftforge/registries/IForgeRegistry;)V
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|603|611|registry|param|com.github.thedcplaya.carbontools.block.ModBlocks|registerItemBlocks|(Lnet/minecraftforge/registries/IForgeRegistry;)V|registry|0
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|563|581|registerItemBlocks|method|com.github.thedcplaya.carbontools.block.ModBlocks|registerItemBlocks|(Lnet/minecraftforge/registries/IForgeRegistry;)V
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|582|596|IForgeRegistry|class|net.minecraftforge.registries.IForgeRegistry
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|597|601|Item|class|net.minecraft.item.Item
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|627|635|registry|param|com.github.thedcplaya.carbontools.block.ModBlocks|registerItemBlocks|(Lnet/minecraftforge/registries/IForgeRegistry;)V|registry|0
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|636|647|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|665|674|oreCarbon|field|com.github.thedcplaya.carbontools.block.ModBlocks|oreCarbon
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|675|690|createItemblock|method|com.github.thedcplaya.carbontools.block.BlockBase|createItemblock|()Lnet/minecraft/item/Item;
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|710|721|blockCarbon|field|com.github.thedcplaya.carbontools.block.ModBlocks|blockCarbon
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|722|737|createItemblock|method|com.github.thedcplaya.carbontools.block.BlockBase|createItemblock|()Lnet/minecraft/item/Item;
+   Method End: registerItemBlocks(Lnet/minecraftforge/registries/IForgeRegistry;)V
+   Method Start: registerModels()V
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|781|795|registerModels|method|com.github.thedcplaya.carbontools.block.ModBlocks|registerModels|()V
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|812|821|oreCarbon|field|com.github.thedcplaya.carbontools.block.ModBlocks|oreCarbon
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|822|839|registerItemModel|method|com.github.thedcplaya.carbontools.block.BlockBase|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|840|844|Item|class|net.minecraft.item.Item
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|845|861|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|862|871|oreCarbon|field|com.github.thedcplaya.carbontools.block.ModBlocks|oreCarbon
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|883|894|blockCarbon|field|com.github.thedcplaya.carbontools.block.ModBlocks|blockCarbon
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|895|912|registerItemModel|method|com.github.thedcplaya.carbontools.block.BlockBase|registerItemModel|(Lnet/minecraft/item/Item;)V
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|913|917|Item|class|net.minecraft.item.Item
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|918|934|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|com\github\thedcplaya\carbontools\block\ModBlocks.java|935|946|blockCarbon|field|com.github.thedcplaya.carbontools.block.ModBlocks|blockCarbon
+   Method End: registerModels()V
+Class End  : com.github.thedcplaya.carbontools.block.ModBlocks
+endProcessing "com\github\thedcplaya\carbontools\block\ModBlocks.java"
+
+startProcessing "com\github\thedcplaya\carbontools\item\ItemBase.java" md5: effb02a758ab197dedee840bb6743b4b
+@|com\github\thedcplaya\carbontools\item\ItemBase.java|8|46|com.github.thedcplaya.carbontools.item|package|com.github.thedcplaya.carbontools.item|(file)
+Class Start: com.github.thedcplaya.carbontools.item.ItemBase
+   @|com\github\thedcplaya\carbontools\item\ItemBase.java|196|204|ItemBase|class|com.github.thedcplaya.carbontools.item.ItemBase
+   @|com\github\thedcplaya\carbontools\item\ItemBase.java|213|217|Item|class|net.minecraft.item.Item
+   @|com\github\thedcplaya\carbontools\item\ItemBase.java|234|240|String|class|java.lang.String
+   @|com\github\thedcplaya\carbontools\item\ItemBase.java|234|240|String|class|java.lang.String
+   @|com\github\thedcplaya\carbontools\item\ItemBase.java|241|245|name|field|com.github.thedcplaya.carbontools.item.ItemBase|name|
+   Method Start: ItemBase(Ljava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|275|279|name|param|com.github.thedcplaya.carbontools.item.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|259|267|ItemBase|method|com.github.thedcplaya.carbontools.item.ItemBase|ItemBase|(Ljava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|268|274|String|class|java.lang.String
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|297|301|name|field|com.github.thedcplaya.carbontools.item.ItemBase|name
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|304|308|name|param|com.github.thedcplaya.carbontools.item.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|315|332|setTranslationKey|method|net.minecraft.item.Item|setTranslationKey|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|333|337|name|param|com.github.thedcplaya.carbontools.item.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|345|360|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|361|365|name|param|com.github.thedcplaya.carbontools.item.ItemBase|ItemBase|(Ljava/lang/String;)V|name|0
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|373|387|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|388|399|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|400|411|creativeTab|field|com.github.thedcplaya.carbontools.CarbonTools|creativeTab
+   Method End: ItemBase(Ljava/lang/String;)V
+   Method Start: registerItemModel()V
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|437|454|registerItemModel|method|com.github.thedcplaya.carbontools.item.ItemBase|registerItemModel|()V
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|471|482|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|483|488|proxy|field|com.github.thedcplaya.carbontools.CarbonTools|proxy
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|489|509|registerItemRenderer|method|com.github.thedcplaya.carbontools.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|519|523|name|field|com.github.thedcplaya.carbontools.item.ItemBase|name
+   Method End: registerItemModel()V
+   Method Start: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Lcom/github/thedcplaya/carbontools/item/ItemBase;
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|595|598|tab|param|com.github.thedcplaya.carbontools.item.ItemBase|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lcom/github/thedcplaya/carbontools/item/ItemBase;|tab|0
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|538|546|Override|class|java.lang.Override
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|558|566|ItemBase|class|com.github.thedcplaya.carbontools.item.ItemBase
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|567|581|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|582|594|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|616|630|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com\github\thedcplaya\carbontools\item\ItemBase.java|631|634|tab|param|com.github.thedcplaya.carbontools.item.ItemBase|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lcom/github/thedcplaya/carbontools/item/ItemBase;|tab|0
+   Method End: setCreativeTab(Lnet/minecraft/creativetab/CreativeTabs;)Lcom/github/thedcplaya/carbontools/item/ItemBase;
+Class End  : com.github.thedcplaya.carbontools.item.ItemBase
+endProcessing "com\github\thedcplaya\carbontools\item\ItemBase.java"
+
+startProcessing "com\github\thedcplaya\carbontools\item\ModItems.java" md5: 01d98ae1bf7ab05724573501c620c8d5
+@|com\github\thedcplaya\carbontools\item\ModItems.java|8|46|com.github.thedcplaya.carbontools.item|package|com.github.thedcplaya.carbontools.item|(file)
+Class Start: com.github.thedcplaya.carbontools.item.ModItems
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|371|379|ModItems|class|com.github.thedcplaya.carbontools.item.ModItems
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|414|423|ItemSword|class|com.github.thedcplaya.carbontools.item.Tool.ItemSword
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|414|423|ItemSword|class|com.github.thedcplaya.carbontools.item.Tool.ItemSword
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|424|435|carbonSword|field|com.github.thedcplaya.carbontools.item.ModItems|carbonSword|
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|442|451|ItemSword|class|com.github.thedcplaya.carbontools.item.Tool.ItemSword
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|452|463|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|464|482|carbonToolMaterial|field|com.github.thedcplaya.carbontools.CarbonTools|carbonToolMaterial
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|519|530|ItemPickaxe|class|com.github.thedcplaya.carbontools.item.Tool.ItemPickaxe
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|519|530|ItemPickaxe|class|com.github.thedcplaya.carbontools.item.Tool.ItemPickaxe
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|531|544|carbonPickaxe|field|com.github.thedcplaya.carbontools.item.ModItems|carbonPickaxe|
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|551|562|ItemPickaxe|class|com.github.thedcplaya.carbontools.item.Tool.ItemPickaxe
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|563|574|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|575|593|carbonToolMaterial|field|com.github.thedcplaya.carbontools.CarbonTools|carbonToolMaterial
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|632|639|ItemAxe|class|com.github.thedcplaya.carbontools.item.Tool.ItemAxe
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|632|639|ItemAxe|class|com.github.thedcplaya.carbontools.item.Tool.ItemAxe
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|640|649|carbonAxe|field|com.github.thedcplaya.carbontools.item.ModItems|carbonAxe|
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|656|663|ItemAxe|class|com.github.thedcplaya.carbontools.item.Tool.ItemAxe
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|664|675|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|676|694|carbonToolMaterial|field|com.github.thedcplaya.carbontools.CarbonTools|carbonToolMaterial
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|729|739|ItemShovel|class|com.github.thedcplaya.carbontools.item.Tool.ItemShovel
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|729|739|ItemShovel|class|com.github.thedcplaya.carbontools.item.Tool.ItemShovel
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|740|752|carbonShovel|field|com.github.thedcplaya.carbontools.item.ModItems|carbonShovel|
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|759|769|ItemShovel|class|com.github.thedcplaya.carbontools.item.Tool.ItemShovel
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|770|781|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|782|800|carbonToolMaterial|field|com.github.thedcplaya.carbontools.CarbonTools|carbonToolMaterial
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|838|845|ItemHoe|class|com.github.thedcplaya.carbontools.item.Tool.ItemHoe
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|838|845|ItemHoe|class|com.github.thedcplaya.carbontools.item.Tool.ItemHoe
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|846|855|carbonHoe|field|com.github.thedcplaya.carbontools.item.ModItems|carbonHoe|
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|862|869|ItemHoe|class|com.github.thedcplaya.carbontools.item.Tool.ItemHoe
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|870|881|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|882|900|carbonToolMaterial|field|com.github.thedcplaya.carbontools.CarbonTools|carbonToolMaterial
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|949|958|ItemArmor|class|com.github.thedcplaya.carbontools.item.armor.ItemArmor
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|949|958|ItemArmor|class|com.github.thedcplaya.carbontools.item.armor.ItemArmor
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|959|969|carbonHelm|field|com.github.thedcplaya.carbontools.item.ModItems|carbonHelm|
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|976|985|ItemArmor|class|com.github.thedcplaya.carbontools.item.armor.ItemArmor
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|986|997|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|998|1017|carbonArmorMaterial|field|com.github.thedcplaya.carbontools.CarbonTools|carbonArmorMaterial
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1019|1038|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1039|1043|HEAD|field|net.minecraft.inventory.EntityEquipmentSlot|HEAD
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1079|1088|ItemArmor|class|com.github.thedcplaya.carbontools.item.armor.ItemArmor
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1079|1088|ItemArmor|class|com.github.thedcplaya.carbontools.item.armor.ItemArmor
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1089|1105|carbonChestplate|field|com.github.thedcplaya.carbontools.item.ModItems|carbonChestplate|
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1112|1121|ItemArmor|class|com.github.thedcplaya.carbontools.item.armor.ItemArmor
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1122|1133|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1134|1153|carbonArmorMaterial|field|com.github.thedcplaya.carbontools.CarbonTools|carbonArmorMaterial
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1155|1174|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1175|1180|CHEST|field|net.minecraft.inventory.EntityEquipmentSlot|CHEST
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1222|1231|ItemArmor|class|com.github.thedcplaya.carbontools.item.armor.ItemArmor
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1222|1231|ItemArmor|class|com.github.thedcplaya.carbontools.item.armor.ItemArmor
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1232|1245|carbonLeggins|field|com.github.thedcplaya.carbontools.item.ModItems|carbonLeggins|
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1252|1261|ItemArmor|class|com.github.thedcplaya.carbontools.item.armor.ItemArmor
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1262|1273|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1274|1293|carbonArmorMaterial|field|com.github.thedcplaya.carbontools.CarbonTools|carbonArmorMaterial
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1295|1314|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1315|1319|LEGS|field|net.minecraft.inventory.EntityEquipmentSlot|LEGS
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1358|1367|ItemArmor|class|com.github.thedcplaya.carbontools.item.armor.ItemArmor
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1358|1367|ItemArmor|class|com.github.thedcplaya.carbontools.item.armor.ItemArmor
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1368|1379|carbonBoots|field|com.github.thedcplaya.carbontools.item.ModItems|carbonBoots|
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1386|1395|ItemArmor|class|com.github.thedcplaya.carbontools.item.armor.ItemArmor
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1396|1407|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1408|1427|carbonArmorMaterial|field|com.github.thedcplaya.carbontools.CarbonTools|carbonArmorMaterial
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1429|1448|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1449|1453|FEET|field|net.minecraft.inventory.EntityEquipmentSlot|FEET
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1503|1511|ItemBase|class|com.github.thedcplaya.carbontools.item.ItemBase
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1503|1511|ItemBase|class|com.github.thedcplaya.carbontools.item.ItemBase
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1512|1523|ingotCarbon|field|com.github.thedcplaya.carbontools.item.ModItems|ingotCarbon|
+   @|com\github\thedcplaya\carbontools\item\ModItems.java|1530|1538|ItemBase|class|com.github.thedcplaya.carbontools.item.ItemBase
+   Method Start: register(Lnet/minecraftforge/registries/IForgeRegistry;)V
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|1612|1620|registry|param|com.github.thedcplaya.carbontools.item.ModItems|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V|registry|0
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|1582|1590|register|method|com.github.thedcplaya.carbontools.item.ModItems|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|1591|1605|IForgeRegistry|class|net.minecraftforge.registries.IForgeRegistry
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|1606|1610|Item|class|net.minecraft.item.Item
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|1636|1644|registry|param|com.github.thedcplaya.carbontools.item.ModItems|register|(Lnet/minecraftforge/registries/IForgeRegistry;)V|registry|0
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|1645|1656|registerAll|method|net.minecraftforge.registries.IForgeRegistry|registerAll|([Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|1731|1742|ingotCarbon|field|com.github.thedcplaya.carbontools.item.ModItems|ingotCarbon
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|1801|1812|carbonSword|field|com.github.thedcplaya.carbontools.item.ModItems|carbonSword
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|1838|1851|carbonPickaxe|field|com.github.thedcplaya.carbontools.item.ModItems|carbonPickaxe
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|1877|1886|carbonAxe|field|com.github.thedcplaya.carbontools.item.ModItems|carbonAxe
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|1912|1924|carbonShovel|field|com.github.thedcplaya.carbontools.item.ModItems|carbonShovel
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|1950|1959|carbonHoe|field|com.github.thedcplaya.carbontools.item.ModItems|carbonHoe
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2018|2028|carbonHelm|field|com.github.thedcplaya.carbontools.item.ModItems|carbonHelm
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2054|2070|carbonChestplate|field|com.github.thedcplaya.carbontools.item.ModItems|carbonChestplate
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2096|2109|carbonLeggins|field|com.github.thedcplaya.carbontools.item.ModItems|carbonLeggins
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2135|2146|carbonBoots|field|com.github.thedcplaya.carbontools.item.ModItems|carbonBoots
+   Method End: register(Lnet/minecraftforge/registries/IForgeRegistry;)V
+   Method Start: registerModels()V
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2196|2210|registerModels|method|com.github.thedcplaya.carbontools.item.ModItems|registerModels|()V
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2243|2254|ingotCarbon|field|com.github.thedcplaya.carbontools.item.ModItems|ingotCarbon
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2255|2272|registerItemModel|method|com.github.thedcplaya.carbontools.item.ItemBase|registerItemModel|()V
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2301|2312|carbonSword|field|com.github.thedcplaya.carbontools.item.ModItems|carbonSword
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2313|2330|registerItemModel|method|com.github.thedcplaya.carbontools.item.Tool.ItemSword|registerItemModel|()V
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2342|2355|carbonPickaxe|field|com.github.thedcplaya.carbontools.item.ModItems|carbonPickaxe
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2356|2373|registerItemModel|method|com.github.thedcplaya.carbontools.item.Tool.ItemPickaxe|registerItemModel|()V
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2385|2394|carbonAxe|field|com.github.thedcplaya.carbontools.item.ModItems|carbonAxe
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2395|2412|registerItemModel|method|com.github.thedcplaya.carbontools.item.Tool.ItemAxe|registerItemModel|()V
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2424|2436|carbonShovel|field|com.github.thedcplaya.carbontools.item.ModItems|carbonShovel
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2437|2454|registerItemModel|method|com.github.thedcplaya.carbontools.item.Tool.ItemShovel|registerItemModel|()V
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2466|2475|carbonHoe|field|com.github.thedcplaya.carbontools.item.ModItems|carbonHoe
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2476|2493|registerItemModel|method|com.github.thedcplaya.carbontools.item.Tool.ItemHoe|registerItemModel|()V
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2522|2532|carbonHelm|field|com.github.thedcplaya.carbontools.item.ModItems|carbonHelm
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2533|2550|registerItemModel|method|com.github.thedcplaya.carbontools.item.armor.ItemArmor|registerItemModel|()V
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2562|2578|carbonChestplate|field|com.github.thedcplaya.carbontools.item.ModItems|carbonChestplate
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2579|2596|registerItemModel|method|com.github.thedcplaya.carbontools.item.armor.ItemArmor|registerItemModel|()V
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2608|2621|carbonLeggins|field|com.github.thedcplaya.carbontools.item.ModItems|carbonLeggins
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2622|2639|registerItemModel|method|com.github.thedcplaya.carbontools.item.armor.ItemArmor|registerItemModel|()V
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2651|2662|carbonBoots|field|com.github.thedcplaya.carbontools.item.ModItems|carbonBoots
+      @|com\github\thedcplaya\carbontools\item\ModItems.java|2663|2680|registerItemModel|method|com.github.thedcplaya.carbontools.item.armor.ItemArmor|registerItemModel|()V
+   Method End: registerModels()V
+Class End  : com.github.thedcplaya.carbontools.item.ModItems
+endProcessing "com\github\thedcplaya\carbontools\item\ModItems.java"
+
+startProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java" md5: 08c2c1a96c3df62f46fa2aaca70cb466
+@|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|8|51|com.github.thedcplaya.carbontools.item.Tool|package|com.github.thedcplaya.carbontools.item.Tool|(file)
+Class Start: com.github.thedcplaya.carbontools.item.Tool.ItemAxe
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|122|129|ItemAxe|class|com.github.thedcplaya.carbontools.item.Tool.ItemAxe
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|138|164|net.minecraft.item.ItemAxe|class|net.minecraft.item.ItemAxe
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|180|186|String|class|java.lang.String
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|180|186|String|class|java.lang.String
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|187|191|name|field|com.github.thedcplaya.carbontools.item.Tool.ItemAxe|name|
+   Method Start: ItemAxe(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|226|234|material|param|com.github.thedcplaya.carbontools.item.Tool.ItemAxe|ItemAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|243|247|name|param|com.github.thedcplaya.carbontools.item.Tool.ItemAxe|ItemAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|205|212|ItemAxe|method|com.github.thedcplaya.carbontools.item.Tool.ItemAxe|ItemAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|213|225|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|236|242|String|class|java.lang.String
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|265|273|material|param|com.github.thedcplaya.carbontools.item.Tool.ItemAxe|ItemAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|296|311|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|312|316|name|param|com.github.thedcplaya.carbontools.item.Tool.ItemAxe|ItemAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|327|344|setTranslationKey|method|net.minecraft.item.Item|setTranslationKey|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|345|349|name|param|com.github.thedcplaya.carbontools.item.Tool.ItemAxe|ItemAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|365|369|name|field|com.github.thedcplaya.carbontools.item.Tool.ItemAxe|name
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|372|376|name|param|com.github.thedcplaya.carbontools.item.Tool.ItemAxe|ItemAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|386|400|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|401|412|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|413|424|creativeTab|field|com.github.thedcplaya.carbontools.CarbonTools|creativeTab
+   Method End: ItemAxe(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+   Method Start: registerItemModel()V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|450|467|registerItemModel|method|com.github.thedcplaya.carbontools.item.Tool.ItemAxe|registerItemModel|()V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|480|491|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|492|497|proxy|field|com.github.thedcplaya.carbontools.CarbonTools|proxy
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|498|518|registerItemRenderer|method|com.github.thedcplaya.carbontools.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|528|532|name|field|com.github.thedcplaya.carbontools.item.Tool.ItemAxe|name
+   Method End: registerItemModel()V
+Class End  : com.github.thedcplaya.carbontools.item.Tool.ItemAxe
+endProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java"
+
+startProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java" md5: 8be57d3b2a2a51e30dc56e89b1e5aedf
+@|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|8|51|com.github.thedcplaya.carbontools.item.Tool|package|com.github.thedcplaya.carbontools.item.Tool|(file)
+Class Start: com.github.thedcplaya.carbontools.item.Tool.ItemHoe
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|122|129|ItemHoe|class|com.github.thedcplaya.carbontools.item.Tool.ItemHoe
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|138|164|net.minecraft.item.ItemHoe|class|net.minecraft.item.ItemHoe
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|179|185|String|class|java.lang.String
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|179|185|String|class|java.lang.String
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|186|190|name|field|com.github.thedcplaya.carbontools.item.Tool.ItemHoe|name|
+   Method Start: ItemHoe(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|225|233|material|param|com.github.thedcplaya.carbontools.item.Tool.ItemHoe|ItemHoe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|242|246|name|param|com.github.thedcplaya.carbontools.item.Tool.ItemHoe|ItemHoe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|204|211|ItemHoe|method|com.github.thedcplaya.carbontools.item.Tool.ItemHoe|ItemHoe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|212|224|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|235|241|String|class|java.lang.String
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|266|274|material|param|com.github.thedcplaya.carbontools.item.Tool.ItemHoe|ItemHoe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|283|298|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|299|303|name|param|com.github.thedcplaya.carbontools.item.Tool.ItemHoe|ItemHoe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|312|329|setTranslationKey|method|net.minecraft.item.Item|setTranslationKey|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|330|334|name|param|com.github.thedcplaya.carbontools.item.Tool.ItemHoe|ItemHoe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|348|352|name|field|com.github.thedcplaya.carbontools.item.Tool.ItemHoe|name
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|355|359|name|param|com.github.thedcplaya.carbontools.item.Tool.ItemHoe|ItemHoe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|367|381|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|382|393|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|394|405|creativeTab|field|com.github.thedcplaya.carbontools.CarbonTools|creativeTab
+   Method End: ItemHoe(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+   Method Start: registerItemModel()V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|433|450|registerItemModel|method|com.github.thedcplaya.carbontools.item.Tool.ItemHoe|registerItemModel|()V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|467|478|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|479|484|proxy|field|com.github.thedcplaya.carbontools.CarbonTools|proxy
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|485|505|registerItemRenderer|method|com.github.thedcplaya.carbontools.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|515|519|name|field|com.github.thedcplaya.carbontools.item.Tool.ItemHoe|name
+   Method End: registerItemModel()V
+Class End  : com.github.thedcplaya.carbontools.item.Tool.ItemHoe
+endProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java"
+
+startProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java" md5: 26d161c90338e09f5d9540c22dde5a6e
+@|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|8|51|com.github.thedcplaya.carbontools.item.Tool|package|com.github.thedcplaya.carbontools.item.Tool|(file)
+Class Start: com.github.thedcplaya.carbontools.item.Tool.ItemPickaxe
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|122|133|ItemPickaxe|class|com.github.thedcplaya.carbontools.item.Tool.ItemPickaxe
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|142|172|net.minecraft.item.ItemPickaxe|class|net.minecraft.item.ItemPickaxe
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|188|194|String|class|java.lang.String
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|188|194|String|class|java.lang.String
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|195|199|name|field|com.github.thedcplaya.carbontools.item.Tool.ItemPickaxe|name|
+   Method Start: ItemPickaxe(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|238|246|material|param|com.github.thedcplaya.carbontools.item.Tool.ItemPickaxe|ItemPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|255|259|name|param|com.github.thedcplaya.carbontools.item.Tool.ItemPickaxe|ItemPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|213|224|ItemPickaxe|method|com.github.thedcplaya.carbontools.item.Tool.ItemPickaxe|ItemPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|225|237|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|248|254|String|class|java.lang.String
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|277|285|material|param|com.github.thedcplaya.carbontools.item.Tool.ItemPickaxe|ItemPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|296|311|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|312|316|name|param|com.github.thedcplaya.carbontools.item.Tool.ItemPickaxe|ItemPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|327|344|setTranslationKey|method|net.minecraft.item.Item|setTranslationKey|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|345|349|name|param|com.github.thedcplaya.carbontools.item.Tool.ItemPickaxe|ItemPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|365|369|name|field|com.github.thedcplaya.carbontools.item.Tool.ItemPickaxe|name
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|372|376|name|param|com.github.thedcplaya.carbontools.item.Tool.ItemPickaxe|ItemPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|386|400|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|401|412|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|413|424|creativeTab|field|com.github.thedcplaya.carbontools.CarbonTools|creativeTab
+   Method End: ItemPickaxe(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+   Method Start: registerItemModel()V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|450|467|registerItemModel|method|com.github.thedcplaya.carbontools.item.Tool.ItemPickaxe|registerItemModel|()V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|472|483|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|484|489|proxy|field|com.github.thedcplaya.carbontools.CarbonTools|proxy
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|490|510|registerItemRenderer|method|com.github.thedcplaya.carbontools.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|520|524|name|field|com.github.thedcplaya.carbontools.item.Tool.ItemPickaxe|name
+   Method End: registerItemModel()V
+Class End  : com.github.thedcplaya.carbontools.item.Tool.ItemPickaxe
+endProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java"
+
+startProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java" md5: 1e4a145e6a52cfd123e3fb3867098ad6
+@|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|8|51|com.github.thedcplaya.carbontools.item.Tool|package|com.github.thedcplaya.carbontools.item.Tool|(file)
+Class Start: com.github.thedcplaya.carbontools.item.Tool.ItemShovel
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|159|169|ItemShovel|class|com.github.thedcplaya.carbontools.item.Tool.ItemShovel
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|178|187|ItemSpade|class|net.minecraft.item.ItemSpade
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|203|209|String|class|java.lang.String
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|203|209|String|class|java.lang.String
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|210|214|name|field|com.github.thedcplaya.carbontools.item.Tool.ItemShovel|name|
+   Method Start: ItemShovel(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|252|260|material|param|com.github.thedcplaya.carbontools.item.Tool.ItemShovel|ItemShovel|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|269|273|name|param|com.github.thedcplaya.carbontools.item.Tool.ItemShovel|ItemShovel|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|228|238|ItemShovel|method|com.github.thedcplaya.carbontools.item.Tool.ItemShovel|ItemShovel|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|239|251|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|262|268|String|class|java.lang.String
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|291|299|material|param|com.github.thedcplaya.carbontools.item.Tool.ItemShovel|ItemShovel|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|310|325|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|326|330|name|param|com.github.thedcplaya.carbontools.item.Tool.ItemShovel|ItemShovel|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|341|358|setTranslationKey|method|net.minecraft.item.Item|setTranslationKey|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|359|363|name|param|com.github.thedcplaya.carbontools.item.Tool.ItemShovel|ItemShovel|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|379|383|name|field|com.github.thedcplaya.carbontools.item.Tool.ItemShovel|name
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|386|390|name|param|com.github.thedcplaya.carbontools.item.Tool.ItemShovel|ItemShovel|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|400|414|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|415|426|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|427|438|creativeTab|field|com.github.thedcplaya.carbontools.CarbonTools|creativeTab
+   Method End: ItemShovel(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+   Method Start: registerItemModel()V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|464|481|registerItemModel|method|com.github.thedcplaya.carbontools.item.Tool.ItemShovel|registerItemModel|()V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|486|497|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|498|503|proxy|field|com.github.thedcplaya.carbontools.CarbonTools|proxy
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|504|524|registerItemRenderer|method|com.github.thedcplaya.carbontools.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|534|538|name|field|com.github.thedcplaya.carbontools.item.Tool.ItemShovel|name
+   Method End: registerItemModel()V
+Class End  : com.github.thedcplaya.carbontools.item.Tool.ItemShovel
+endProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java"
+
+startProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemSword.java" md5: 8d7661c9566adcc5542d9c0774bed72a
+@|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|8|51|com.github.thedcplaya.carbontools.item.Tool|package|com.github.thedcplaya.carbontools.item.Tool|(file)
+Class Start: com.github.thedcplaya.carbontools.item.Tool.ItemSword
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|124|133|ItemSword|class|com.github.thedcplaya.carbontools.item.Tool.ItemSword
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|142|170|net.minecraft.item.ItemSword|class|net.minecraft.item.ItemSword
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|186|192|String|class|java.lang.String
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|186|192|String|class|java.lang.String
+   @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|193|197|name|field|com.github.thedcplaya.carbontools.item.Tool.ItemSword|name|
+   Method Start: ItemSword(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|234|242|material|param|com.github.thedcplaya.carbontools.item.Tool.ItemSword|ItemSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|251|255|name|param|com.github.thedcplaya.carbontools.item.Tool.ItemSword|ItemSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|211|220|ItemSword|method|com.github.thedcplaya.carbontools.item.Tool.ItemSword|ItemSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|221|233|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|244|250|String|class|java.lang.String
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|273|281|material|param|com.github.thedcplaya.carbontools.item.Tool.ItemSword|ItemSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|292|307|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|308|312|name|param|com.github.thedcplaya.carbontools.item.Tool.ItemSword|ItemSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|323|340|setTranslationKey|method|net.minecraft.item.Item|setTranslationKey|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|341|345|name|param|com.github.thedcplaya.carbontools.item.Tool.ItemSword|ItemSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|361|365|name|field|com.github.thedcplaya.carbontools.item.Tool.ItemSword|name
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|368|372|name|param|com.github.thedcplaya.carbontools.item.Tool.ItemSword|ItemSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|name|1
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|382|396|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|397|408|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|409|420|creativeTab|field|com.github.thedcplaya.carbontools.CarbonTools|creativeTab
+   Method End: ItemSword(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+   Method Start: registerItemModel()V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|446|463|registerItemModel|method|com.github.thedcplaya.carbontools.item.Tool.ItemSword|registerItemModel|()V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|476|487|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|488|493|proxy|field|com.github.thedcplaya.carbontools.CarbonTools|proxy
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|494|514|registerItemRenderer|method|com.github.thedcplaya.carbontools.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|524|528|name|field|com.github.thedcplaya.carbontools.item.Tool.ItemSword|name
+   Method End: registerItemModel()V
+Class End  : com.github.thedcplaya.carbontools.item.Tool.ItemSword
+endProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemSword.java"
+
+startProcessing "com\github\thedcplaya\carbontools\item\armor\ItemArmor.java" md5: 7a285d9fe6a9f83315bf0775d197ffbd
+@|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|8|52|com.github.thedcplaya.carbontools.item.armor|package|com.github.thedcplaya.carbontools.item.armor|(file)
+Class Start: com.github.thedcplaya.carbontools.item.armor.ItemArmor
+   @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|175|184|ItemArmor|class|com.github.thedcplaya.carbontools.item.armor.ItemArmor
+   @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|193|221|net.minecraft.item.ItemArmor|class|net.minecraft.item.ItemArmor
+   @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|236|242|String|class|java.lang.String
+   @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|236|242|String|class|java.lang.String
+   @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|243|247|name|field|com.github.thedcplaya.carbontools.item.armor.ItemArmor|name|
+   Method Start: ItemArmor(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Lnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|285|293|material|param|com.github.thedcplaya.carbontools.item.armor.ItemArmor|ItemArmor|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Lnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|material|0
+      @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|315|319|slot|param|com.github.thedcplaya.carbontools.item.armor.ItemArmor|ItemArmor|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Lnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|slot|1
+      @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|328|332|name|param|com.github.thedcplaya.carbontools.item.armor.ItemArmor|ItemArmor|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Lnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|name|2
+      @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|261|270|ItemArmor|method|com.github.thedcplaya.carbontools.item.armor.ItemArmor|ItemArmor|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Lnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|271|284|ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+      @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|295|314|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|321|327|String|class|java.lang.String
+      @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|350|358|material|param|com.github.thedcplaya.carbontools.item.armor.ItemArmor|ItemArmor|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Lnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|material|0
+      @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|363|367|slot|param|com.github.thedcplaya.carbontools.item.armor.ItemArmor|ItemArmor|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Lnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|slot|1
+      @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|378|393|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|394|398|name|param|com.github.thedcplaya.carbontools.item.armor.ItemArmor|ItemArmor|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Lnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|name|2
+      @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|409|426|setTranslationKey|method|net.minecraft.item.Item|setTranslationKey|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|427|431|name|param|com.github.thedcplaya.carbontools.item.armor.ItemArmor|ItemArmor|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Lnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|name|2
+      @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|447|451|name|field|com.github.thedcplaya.carbontools.item.armor.ItemArmor|name
+      @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|454|458|name|param|com.github.thedcplaya.carbontools.item.armor.ItemArmor|ItemArmor|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Lnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|name|2
+      @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|468|482|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|483|494|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+      @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|495|506|creativeTab|field|com.github.thedcplaya.carbontools.CarbonTools|creativeTab
+   Method End: ItemArmor(Lnet/minecraft/item/ItemArmor$ArmorMaterial;Lnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V
+   Method Start: registerItemModel()V
+      @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|532|549|registerItemModel|method|com.github.thedcplaya.carbontools.item.armor.ItemArmor|registerItemModel|()V
+      @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|562|573|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+      @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|574|579|proxy|field|com.github.thedcplaya.carbontools.CarbonTools|proxy
+      @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|580|600|registerItemRenderer|method|com.github.thedcplaya.carbontools.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|610|614|name|field|com.github.thedcplaya.carbontools.item.armor.ItemArmor|name
+   Method End: registerItemModel()V
+Class End  : com.github.thedcplaya.carbontools.item.armor.ItemArmor
+endProcessing "com\github\thedcplaya\carbontools\item\armor\ItemArmor.java"
+
+startProcessing "com\github\thedcplaya\carbontools\modrecipes\ModRecipes.java" md5: f1b640c878116ebb6fcbcce1fada814f
+@|com\github\thedcplaya\carbontools\modrecipes\ModRecipes.java|8|52|com.github.thedcplaya.carbontools.modrecipes|package|com.github.thedcplaya.carbontools.modrecipes|(file)
+Class Start: com.github.thedcplaya.carbontools.modrecipes.ModRecipes
+   @|com\github\thedcplaya\carbontools\modrecipes\ModRecipes.java|440|450|ModRecipes|class|com.github.thedcplaya.carbontools.modrecipes.ModRecipes
+   Method Start: init()V
+      @|com\github\thedcplaya\carbontools\modrecipes\ModRecipes.java|476|480|init|method|com.github.thedcplaya.carbontools.modrecipes.ModRecipes|init|()V
+      @|com\github\thedcplaya\carbontools\modrecipes\ModRecipes.java|498|510|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com\github\thedcplaya\carbontools\modrecipes\ModRecipes.java|511|522|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V
+      @|com\github\thedcplaya\carbontools\modrecipes\ModRecipes.java|523|532|ModBlocks|class|com.github.thedcplaya.carbontools.block.ModBlocks
+      @|com\github\thedcplaya\carbontools\modrecipes\ModRecipes.java|533|542|oreCarbon|field|com.github.thedcplaya.carbontools.block.ModBlocks|oreCarbon
+      @|com\github\thedcplaya\carbontools\modrecipes\ModRecipes.java|548|557|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\github\thedcplaya\carbontools\modrecipes\ModRecipes.java|558|569|ingotCarbon|field|com.github.thedcplaya.carbontools.item.ModItems|ingotCarbon
+   Method End: init()V
+Class End  : com.github.thedcplaya.carbontools.modrecipes.ModRecipes
+endProcessing "com\github\thedcplaya\carbontools\modrecipes\ModRecipes.java"
+
+startProcessing "com\github\thedcplaya\carbontools\proxy\ClientProxy.java" md5: bdea8c9c13722915b35a53032755bf99
+@|com\github\thedcplaya\carbontools\proxy\ClientProxy.java|8|47|com.github.thedcplaya.carbontools.proxy|package|com.github.thedcplaya.carbontools.proxy|(file)
+Class Start: com.github.thedcplaya.carbontools.proxy.ClientProxy
+   @|com\github\thedcplaya\carbontools\proxy\ClientProxy.java|274|285|ClientProxy|class|com.github.thedcplaya.carbontools.proxy.ClientProxy
+   @|com\github\thedcplaya\carbontools\proxy\ClientProxy.java|294|305|CommonProxy|class|com.github.thedcplaya.carbontools.proxy.CommonProxy
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\proxy\ClientProxy.java|364|368|item|param|com.github.thedcplaya.carbontools.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|com\github\thedcplaya\carbontools\proxy\ClientProxy.java|374|378|meta|param|com.github.thedcplaya.carbontools.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|com\github\thedcplaya\carbontools\proxy\ClientProxy.java|387|389|id|param|com.github.thedcplaya.carbontools.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+      @|com\github\thedcplaya\carbontools\proxy\ClientProxy.java|313|321|Override|class|java.lang.Override
+      @|com\github\thedcplaya\carbontools\proxy\ClientProxy.java|338|358|registerItemRenderer|method|com.github.thedcplaya.carbontools.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\proxy\ClientProxy.java|359|363|Item|class|net.minecraft.item.Item
+      @|com\github\thedcplaya\carbontools\proxy\ClientProxy.java|380|386|String|class|java.lang.String
+      @|com\github\thedcplaya\carbontools\proxy\ClientProxy.java|401|412|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|com\github\thedcplaya\carbontools\proxy\ClientProxy.java|413|443|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|com\github\thedcplaya\carbontools\proxy\ClientProxy.java|444|448|item|param|com.github.thedcplaya.carbontools.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|com\github\thedcplaya\carbontools\proxy\ClientProxy.java|450|454|meta|param|com.github.thedcplaya.carbontools.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|meta|1
+      @|com\github\thedcplaya\carbontools\proxy\ClientProxy.java|460|481|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|com\github\thedcplaya\carbontools\proxy\ClientProxy.java|482|493|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+      @|com\github\thedcplaya\carbontools\proxy\ClientProxy.java|494|499|MODID|field|com.github.thedcplaya.carbontools.CarbonTools|MODID
+      @|com\github\thedcplaya\carbontools\proxy\ClientProxy.java|508|510|id|param|com.github.thedcplaya.carbontools.proxy.ClientProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|id|2
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+Class End  : com.github.thedcplaya.carbontools.proxy.ClientProxy
+endProcessing "com\github\thedcplaya\carbontools\proxy\ClientProxy.java"
+
+startProcessing "com\github\thedcplaya\carbontools\proxy\CommonProxy.java" md5: 745d37f14bff8e65ae67ca8fe4b1090c
+@|com\github\thedcplaya\carbontools\proxy\CommonProxy.java|8|47|com.github.thedcplaya.carbontools.proxy|package|com.github.thedcplaya.carbontools.proxy|(file)
+Class Start: com.github.thedcplaya.carbontools.proxy.CommonProxy
+   @|com\github\thedcplaya\carbontools\proxy\CommonProxy.java|96|107|CommonProxy|class|com.github.thedcplaya.carbontools.proxy.CommonProxy
+   Method Start: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\proxy\CommonProxy.java|152|156|item|param|com.github.thedcplaya.carbontools.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|item|0
+      @|com\github\thedcplaya\carbontools\proxy\CommonProxy.java|162|163|i|param|com.github.thedcplaya.carbontools.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|i|1
+      @|com\github\thedcplaya\carbontools\proxy\CommonProxy.java|172|176|name|param|com.github.thedcplaya.carbontools.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V|name|2
+      @|com\github\thedcplaya\carbontools\proxy\CommonProxy.java|126|146|registerItemRenderer|method|com.github.thedcplaya.carbontools.proxy.CommonProxy|registerItemRenderer|(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+      @|com\github\thedcplaya\carbontools\proxy\CommonProxy.java|147|151|Item|class|net.minecraft.item.Item
+      @|com\github\thedcplaya\carbontools\proxy\CommonProxy.java|165|171|String|class|java.lang.String
+   Method End: registerItemRenderer(Lnet/minecraft/item/Item;ILjava/lang/String;)V
+Class End  : com.github.thedcplaya.carbontools.proxy.CommonProxy
+endProcessing "com\github\thedcplaya\carbontools\proxy\CommonProxy.java"
+
+startProcessing "com\github\thedcplaya\carbontools\util\CarbonToolsTab.java" md5: 534792f924546668e9e46b6fe3417583
+@|com\github\thedcplaya\carbontools\util\CarbonToolsTab.java|8|46|com.github.thedcplaya.carbontools.util|package|com.github.thedcplaya.carbontools.util|(file)
+Class Start: com.github.thedcplaya.carbontools.util.CarbonToolsTab
+   @|com\github\thedcplaya\carbontools\util\CarbonToolsTab.java|258|272|CarbonToolsTab|class|com.github.thedcplaya.carbontools.util.CarbonToolsTab
+   @|com\github\thedcplaya\carbontools\util\CarbonToolsTab.java|281|293|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   Method Start: CarbonToolsTab()V
+      @|com\github\thedcplaya\carbontools\util\CarbonToolsTab.java|307|321|CarbonToolsTab|method|com.github.thedcplaya.carbontools.util.CarbonToolsTab|CarbonToolsTab|()V
+      @|com\github\thedcplaya\carbontools\util\CarbonToolsTab.java|341|352|CarbonTools|class|com.github.thedcplaya.carbontools.CarbonTools
+      @|com\github\thedcplaya\carbontools\util\CarbonToolsTab.java|353|358|MODID|field|com.github.thedcplaya.carbontools.CarbonTools|MODID
+   Method End: CarbonToolsTab()V
+   Method Start: createIcon()Lnet/minecraft/item/ItemStack;
+      @|com\github\thedcplaya\carbontools\util\CarbonToolsTab.java|373|381|Override|class|java.lang.Override
+      @|com\github\thedcplaya\carbontools\util\CarbonToolsTab.java|393|402|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\github\thedcplaya\carbontools\util\CarbonToolsTab.java|403|413|createIcon|method|net.minecraft.creativetab.CreativeTabs|createIcon|()Lnet/minecraft/item/ItemStack;
+      @|com\github\thedcplaya\carbontools\util\CarbonToolsTab.java|437|446|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\github\thedcplaya\carbontools\util\CarbonToolsTab.java|447|455|ModItems|class|com.github.thedcplaya.carbontools.item.ModItems
+      @|com\github\thedcplaya\carbontools\util\CarbonToolsTab.java|456|467|ingotCarbon|field|com.github.thedcplaya.carbontools.item.ModItems|ingotCarbon
+   Method End: createIcon()Lnet/minecraft/item/ItemStack;
+Class End  : com.github.thedcplaya.carbontools.util.CarbonToolsTab
+endProcessing "com\github\thedcplaya\carbontools\util\CarbonToolsTab.java"
+
+startProcessing "com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java" md5: 98302097bbd3810f3176e95fa8bfa2d2
+@|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|8|57|com.github.thedcplaya.carbontools.worldgeneration|package|com.github.thedcplaya.carbontools.worldgeneration|(file)
+Class Start: com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen
+   @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|440|451|ModWorldGen|class|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen
+   @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|463|478|IWorldGenerator|class|net.minecraftforge.fml.common.IWorldGenerator
+   @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|498|507|veinCount|field|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen|veinCount|
+   @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|529|533|maxY|field|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen|maxY|
+   @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|556|560|minY|field|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen|minY|
+   @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|582|590|veinSize|field|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen|veinSize|
+   Method Start: generate(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|643|649|random|param|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|655|661|chunkX|param|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|667|673|chunkZ|param|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|681|686|world|param|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|704|718|chunkGenerator|param|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkGenerator|4
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|760|773|chunkProvider|param|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkProvider|5
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|602|610|Override|class|java.lang.Override
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|627|635|generate|method|net.minecraftforge.fml.common.IWorldGenerator|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|636|642|Random|class|java.util.Random
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|675|680|World|class|net.minecraft.world.World
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|688|703|IChunkGenerator|class|net.minecraft.world.gen.IChunkGenerator
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|745|759|IChunkProvider|class|net.minecraft.world.chunk.IChunkProvider
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|791|796|world|param|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|797|805|provider|field|net.minecraft.world.World|provider
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|806|820|isSurfaceWorld|method|net.minecraft.world.WorldProvider|isSurfaceWorld|()Z
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|885|894|veinCount|field|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen|veinCount
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|923|929|chunkX|param|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|937|943|random|param|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|944|951|nextInt|method|java.util.Random|nextInt|(I)I
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|977|983|random|param|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|984|991|nextInt|method|java.util.Random|nextInt|(I)I
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|992|996|maxY|field|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen|maxY
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|999|1003|minY|field|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen|minY
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|1007|1011|minY|field|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen|minY
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|1033|1039|chunkZ|param|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|1047|1053|random|param|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|1054|1061|nextInt|method|java.util.Random|nextInt|(I)I
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|1084|1099|WorldGenMinable|class|net.minecraft.world.gen.feature.WorldGenMinable
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|1100|1109|ModBlocks|class|com.github.thedcplaya.carbontools.block.ModBlocks
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|1110|1119|oreCarbon|field|com.github.thedcplaya.carbontools.block.ModBlocks|oreCarbon
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|1120|1135|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|1139|1147|veinSize|field|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen|veinSize
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|1150|1158|generate|method|net.minecraft.world.gen.feature.WorldGenerator|generate|(Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;)Z
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|1159|1164|world|param|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|1166|1172|random|param|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|1198|1206|BlockPos|class|net.minecraft.util.math.BlockPos
+   Method End: generate(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+Class End  : com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen
+endProcessing "com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java"
+

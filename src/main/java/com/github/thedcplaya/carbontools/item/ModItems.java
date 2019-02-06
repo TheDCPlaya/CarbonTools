@@ -1,10 +1,7 @@
 package com.github.thedcplaya.carbontools.item;
 
 import com.github.thedcplaya.carbontools.CarbonTools;
-import com.github.thedcplaya.carbontools.item.Tool.ItemAxe;
-import com.github.thedcplaya.carbontools.item.Tool.ItemPickaxe;
-import com.github.thedcplaya.carbontools.item.Tool.ItemShovel;
-import com.github.thedcplaya.carbontools.item.Tool.ItemSword;
+import com.github.thedcplaya.carbontools.item.Tool.*;
 import com.github.thedcplaya.carbontools.item.armor.ItemArmor;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
@@ -18,7 +15,7 @@ public class ModItems
     public static ItemPickaxe carbonPickaxe = new ItemPickaxe(CarbonTools.carbonToolMaterial, "carbon_pickaxe");
     public static ItemAxe carbonAxe = new ItemAxe(CarbonTools.carbonToolMaterial, "carbon_axe");
     public static ItemShovel carbonShovel = new ItemShovel(CarbonTools.carbonToolMaterial, "carbon_shovel");
-
+    public static ItemHoe carbonHoe = new ItemHoe(CarbonTools.carbonToolMaterial,"carbon_hoe");
 
     // Armor
 
@@ -36,11 +33,16 @@ public class ModItems
     {
         registry.registerAll
                 (
+                        //ingot
                         ingotCarbon,
+
+                        //tools
                         carbonSword,
                         carbonPickaxe,
                         carbonAxe,
                         carbonShovel,
+                        carbonHoe,
+
                         //armor
                         carbonHelm,
                         carbonChestplate,
@@ -59,6 +61,7 @@ public class ModItems
         carbonPickaxe.registerItemModel();
         carbonAxe.registerItemModel();
         carbonShovel.registerItemModel();
+        carbonHoe.registerItemModel();
 
         //Armor
         carbonHelm.registerItemModel();
