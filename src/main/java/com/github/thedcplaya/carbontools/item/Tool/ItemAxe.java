@@ -9,7 +9,7 @@ public class ItemAxe extends net.minecraft.item.ItemAxe {
     public ItemAxe(ToolMaterial material, String name) {
         super(material, 10f, -3.1f);
         setRegistryName(name);
-        setUnlocalizedName(name);
+        setTranslationKey(name);
         this.name = name;
         setCreativeTab(CarbonTools.creativeTab);
     }

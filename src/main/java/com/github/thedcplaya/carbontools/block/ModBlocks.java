@@ -16,26 +16,26 @@ public class ModBlocks
 
     public static void register(IForgeRegistry<Block> registry)
     {
-    registry.registerAll
-            (oreCarbon);
-            (blockCarbon);
-        }
+        registry.registerAll(
+                oreCarbon,
+                blockCarbon
+        );
+    }
 
 
 
     public static void registerItemBlocks(IForgeRegistry<Item> registry)
     {
-        registry.registerAll
-                (oreCarbon.createItemblock());
-                (blockCarbon.createItemblock());
-
+        registry.registerAll(
+                oreCarbon.createItemblock(),
+                blockCarbon.createItemblock()
+        );
     }
 
     public static void registerModels()
     {
         oreCarbon.registerItemModel(Item.getItemFromBlock(oreCarbon));
         blockCarbon.registerItemModel(Item.getItemFromBlock(blockCarbon));
-
     }
 
 

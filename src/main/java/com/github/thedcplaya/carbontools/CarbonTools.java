@@ -78,7 +78,7 @@ public class CarbonTools
     public static final CarbonToolsTab creativeTab = new CarbonToolsTab();
 
 
-    public static final Item.ToolMaterial carbonToolMaterial = (Item.ToolMaterial) EnumHelper.addToolMaterial("CARBON", 25, 0, 6, 999999, 14);
+    public static final Item.ToolMaterial carbonToolMaterial = EnumHelper.addToolMaterial("CARBON", 25, 0, 6, 999999, 14);
     public static final ItemArmor.ArmorMaterial carbonArmorMaterial = EnumHelper.addArmorMaterial("CARBON", MODID + ":carbon", 0, new int[]{25, 25, 25, 25}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 500.0F);
 }
 
