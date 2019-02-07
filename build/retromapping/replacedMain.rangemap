@@ -1,6 +1,7 @@
 Symbol range map extraction starting
 Processing 18 files
-startProcessing "com\github\thedcplaya\carbontools\CarbonTools.java" md5: 0d909011068c039daaf6b10efd647248
+startProcessing "com\github\thedcplaya\carbontools\CarbonTools.java" md5: 1ee672757e6dd4a4c07d8144f79918e0
+Cache Hit!
 @|com\github\thedcplaya\carbontools\CarbonTools.java|8|41|com.github.thedcplaya.carbontools|package|com.github.thedcplaya.carbontools|(file)
 Class Start: com.github.thedcplaya.carbontools.CarbonTools
    @|com\github\thedcplaya\carbontools\CarbonTools.java|1139|1142|Mod|class|net.minecraftforge.fml.common.Mod
@@ -113,11 +114,12 @@ Class Start: com.github.thedcplaya.carbontools.CarbonTools
    @|com\github\thedcplaya\carbontools\CarbonTools.java|3005|3021|addArmorMaterial|method|net.minecraftforge.common.util.EnumHelper|addArmorMaterial|(Ljava/lang/String;Ljava/lang/String;I[IILnet/minecraft/util/SoundEvent;F)Lnet/minecraft/item/ItemArmor$ArmorMaterial;
    @|com\github\thedcplaya\carbontools\CarbonTools.java|3032|3037|MODID|field|com.github.thedcplaya.carbontools.CarbonTools|MODID
    @|com\github\thedcplaya\carbontools\CarbonTools.java|3086|3097|SoundEvents|class|net.minecraft.init.SoundEvents
-   @|com\github\thedcplaya\carbontools\CarbonTools.java|3098|3119|ITEM_ARMOR_EQUIP_IRON|field|net.minecraft.init.SoundEvents|ITEM_ARMOR_EQUIP_IRON
+   @|com\github\thedcplaya\carbontools\CarbonTools.java|3098|3122|ITEM_ARMOR_EQUIP_GENERIC|field|net.minecraft.init.SoundEvents|ITEM_ARMOR_EQUIP_GENERIC
 Class End  : com.github.thedcplaya.carbontools.CarbonTools
 endProcessing "com\github\thedcplaya\carbontools\CarbonTools.java"
 
 startProcessing "com\github\thedcplaya\carbontools\block\BlockBase.java" md5: b0781beeac64cedb57315695fa8df143
+Cache Hit!
 @|com\github\thedcplaya\carbontools\block\BlockBase.java|8|47|com.github.thedcplaya.carbontools.block|package|com.github.thedcplaya.carbontools.block|(file)
 Class Start: com.github.thedcplaya.carbontools.block.BlockBase
    @|com\github\thedcplaya\carbontools\block\BlockBase.java|314|323|BlockBase|class|com.github.thedcplaya.carbontools.block.BlockBase
@@ -172,6 +174,7 @@ Class End  : com.github.thedcplaya.carbontools.block.BlockBase
 endProcessing "com\github\thedcplaya\carbontools\block\BlockBase.java"
 
 startProcessing "com\github\thedcplaya\carbontools\block\BlockCarbon.java" md5: 881cefe95ac0b03666dcda394ba5927f
+Cache Hit!
 @|com\github\thedcplaya\carbontools\block\BlockCarbon.java|8|47|com.github.thedcplaya.carbontools.block|package|com.github.thedcplaya.carbontools.block|(file)
 Class Start: com.github.thedcplaya.carbontools.block.BlockCarbon
    @|com\github\thedcplaya\carbontools\block\BlockCarbon.java|157|168|BlockCarbon|class|com.github.thedcplaya.carbontools.block.BlockCarbon
@@ -199,6 +202,7 @@ Class End  : com.github.thedcplaya.carbontools.block.BlockCarbon
 endProcessing "com\github\thedcplaya\carbontools\block\BlockCarbon.java"
 
 startProcessing "com\github\thedcplaya\carbontools\block\BlockOre.java" md5: c8c5250008a363289816dfa89ad8c2d9
+Cache Hit!
 @|com\github\thedcplaya\carbontools\block\BlockOre.java|8|47|com.github.thedcplaya.carbontools.block|package|com.github.thedcplaya.carbontools.block|(file)
 Class Start: com.github.thedcplaya.carbontools.block.BlockOre
    @|com\github\thedcplaya\carbontools\block\BlockOre.java|157|165|BlockOre|class|com.github.thedcplaya.carbontools.block.BlockOre
@@ -226,6 +230,7 @@ Class End  : com.github.thedcplaya.carbontools.block.BlockOre
 endProcessing "com\github\thedcplaya\carbontools\block\BlockOre.java"
 
 startProcessing "com\github\thedcplaya\carbontools\block\ModBlocks.java" md5: 251bba015067cb6826f18d89b5fa4324
+Cache Hit!
 @|com\github\thedcplaya\carbontools\block\ModBlocks.java|8|47|com.github.thedcplaya.carbontools.block|package|com.github.thedcplaya.carbontools.block|(file)
 Class Start: com.github.thedcplaya.carbontools.block.ModBlocks
    @|com\github\thedcplaya\carbontools\block\ModBlocks.java|183|192|ModBlocks|class|com.github.thedcplaya.carbontools.block.ModBlocks
@@ -276,6 +281,7 @@ Class End  : com.github.thedcplaya.carbontools.block.ModBlocks
 endProcessing "com\github\thedcplaya\carbontools\block\ModBlocks.java"
 
 startProcessing "com\github\thedcplaya\carbontools\item\ItemBase.java" md5: effb02a758ab197dedee840bb6743b4b
+Cache Hit!
 @|com\github\thedcplaya\carbontools\item\ItemBase.java|8|46|com.github.thedcplaya.carbontools.item|package|com.github.thedcplaya.carbontools.item|(file)
 Class Start: com.github.thedcplaya.carbontools.item.ItemBase
    @|com\github\thedcplaya\carbontools\item\ItemBase.java|196|204|ItemBase|class|com.github.thedcplaya.carbontools.item.ItemBase
@@ -317,6 +323,7 @@ Class End  : com.github.thedcplaya.carbontools.item.ItemBase
 endProcessing "com\github\thedcplaya\carbontools\item\ItemBase.java"
 
 startProcessing "com\github\thedcplaya\carbontools\item\ModItems.java" md5: 01d98ae1bf7ab05724573501c620c8d5
+Cache Hit!
 @|com\github\thedcplaya\carbontools\item\ModItems.java|8|46|com.github.thedcplaya.carbontools.item|package|com.github.thedcplaya.carbontools.item|(file)
 Class Start: com.github.thedcplaya.carbontools.item.ModItems
    @|com\github\thedcplaya\carbontools\item\ModItems.java|371|379|ModItems|class|com.github.thedcplaya.carbontools.item.ModItems
@@ -431,6 +438,7 @@ Class End  : com.github.thedcplaya.carbontools.item.ModItems
 endProcessing "com\github\thedcplaya\carbontools\item\ModItems.java"
 
 startProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java" md5: 08c2c1a96c3df62f46fa2aaca70cb466
+Cache Hit!
 @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|8|51|com.github.thedcplaya.carbontools.item.Tool|package|com.github.thedcplaya.carbontools.item.Tool|(file)
 Class Start: com.github.thedcplaya.carbontools.item.Tool.ItemAxe
    @|com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java|122|129|ItemAxe|class|com.github.thedcplaya.carbontools.item.Tool.ItemAxe
@@ -466,6 +474,7 @@ Class End  : com.github.thedcplaya.carbontools.item.Tool.ItemAxe
 endProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java"
 
 startProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java" md5: 8be57d3b2a2a51e30dc56e89b1e5aedf
+Cache Hit!
 @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|8|51|com.github.thedcplaya.carbontools.item.Tool|package|com.github.thedcplaya.carbontools.item.Tool|(file)
 Class Start: com.github.thedcplaya.carbontools.item.Tool.ItemHoe
    @|com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java|122|129|ItemHoe|class|com.github.thedcplaya.carbontools.item.Tool.ItemHoe
@@ -501,6 +510,7 @@ Class End  : com.github.thedcplaya.carbontools.item.Tool.ItemHoe
 endProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java"
 
 startProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java" md5: 26d161c90338e09f5d9540c22dde5a6e
+Cache Hit!
 @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|8|51|com.github.thedcplaya.carbontools.item.Tool|package|com.github.thedcplaya.carbontools.item.Tool|(file)
 Class Start: com.github.thedcplaya.carbontools.item.Tool.ItemPickaxe
    @|com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java|122|133|ItemPickaxe|class|com.github.thedcplaya.carbontools.item.Tool.ItemPickaxe
@@ -536,6 +546,7 @@ Class End  : com.github.thedcplaya.carbontools.item.Tool.ItemPickaxe
 endProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java"
 
 startProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java" md5: 1e4a145e6a52cfd123e3fb3867098ad6
+Cache Hit!
 @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|8|51|com.github.thedcplaya.carbontools.item.Tool|package|com.github.thedcplaya.carbontools.item.Tool|(file)
 Class Start: com.github.thedcplaya.carbontools.item.Tool.ItemShovel
    @|com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java|159|169|ItemShovel|class|com.github.thedcplaya.carbontools.item.Tool.ItemShovel
@@ -571,6 +582,7 @@ Class End  : com.github.thedcplaya.carbontools.item.Tool.ItemShovel
 endProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java"
 
 startProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemSword.java" md5: 8d7661c9566adcc5542d9c0774bed72a
+Cache Hit!
 @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|8|51|com.github.thedcplaya.carbontools.item.Tool|package|com.github.thedcplaya.carbontools.item.Tool|(file)
 Class Start: com.github.thedcplaya.carbontools.item.Tool.ItemSword
    @|com\github\thedcplaya\carbontools\item\Tool\ItemSword.java|124|133|ItemSword|class|com.github.thedcplaya.carbontools.item.Tool.ItemSword
@@ -606,6 +618,7 @@ Class End  : com.github.thedcplaya.carbontools.item.Tool.ItemSword
 endProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemSword.java"
 
 startProcessing "com\github\thedcplaya\carbontools\item\armor\ItemArmor.java" md5: 7a285d9fe6a9f83315bf0775d197ffbd
+Cache Hit!
 @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|8|52|com.github.thedcplaya.carbontools.item.armor|package|com.github.thedcplaya.carbontools.item.armor|(file)
 Class Start: com.github.thedcplaya.carbontools.item.armor.ItemArmor
    @|com\github\thedcplaya\carbontools\item\armor\ItemArmor.java|175|184|ItemArmor|class|com.github.thedcplaya.carbontools.item.armor.ItemArmor
@@ -644,6 +657,7 @@ Class End  : com.github.thedcplaya.carbontools.item.armor.ItemArmor
 endProcessing "com\github\thedcplaya\carbontools\item\armor\ItemArmor.java"
 
 startProcessing "com\github\thedcplaya\carbontools\modrecipes\ModRecipes.java" md5: f1b640c878116ebb6fcbcce1fada814f
+Cache Hit!
 @|com\github\thedcplaya\carbontools\modrecipes\ModRecipes.java|8|52|com.github.thedcplaya.carbontools.modrecipes|package|com.github.thedcplaya.carbontools.modrecipes|(file)
 Class Start: com.github.thedcplaya.carbontools.modrecipes.ModRecipes
    @|com\github\thedcplaya\carbontools\modrecipes\ModRecipes.java|440|450|ModRecipes|class|com.github.thedcplaya.carbontools.modrecipes.ModRecipes
@@ -660,6 +674,7 @@ Class End  : com.github.thedcplaya.carbontools.modrecipes.ModRecipes
 endProcessing "com\github\thedcplaya\carbontools\modrecipes\ModRecipes.java"
 
 startProcessing "com\github\thedcplaya\carbontools\proxy\ClientProxy.java" md5: bdea8c9c13722915b35a53032755bf99
+Cache Hit!
 @|com\github\thedcplaya\carbontools\proxy\ClientProxy.java|8|47|com.github.thedcplaya.carbontools.proxy|package|com.github.thedcplaya.carbontools.proxy|(file)
 Class Start: com.github.thedcplaya.carbontools.proxy.ClientProxy
    @|com\github\thedcplaya\carbontools\proxy\ClientProxy.java|274|285|ClientProxy|class|com.github.thedcplaya.carbontools.proxy.ClientProxy
@@ -685,6 +700,7 @@ Class End  : com.github.thedcplaya.carbontools.proxy.ClientProxy
 endProcessing "com\github\thedcplaya\carbontools\proxy\ClientProxy.java"
 
 startProcessing "com\github\thedcplaya\carbontools\proxy\CommonProxy.java" md5: 745d37f14bff8e65ae67ca8fe4b1090c
+Cache Hit!
 @|com\github\thedcplaya\carbontools\proxy\CommonProxy.java|8|47|com.github.thedcplaya.carbontools.proxy|package|com.github.thedcplaya.carbontools.proxy|(file)
 Class Start: com.github.thedcplaya.carbontools.proxy.CommonProxy
    @|com\github\thedcplaya\carbontools\proxy\CommonProxy.java|96|107|CommonProxy|class|com.github.thedcplaya.carbontools.proxy.CommonProxy
@@ -700,6 +716,7 @@ Class End  : com.github.thedcplaya.carbontools.proxy.CommonProxy
 endProcessing "com\github\thedcplaya\carbontools\proxy\CommonProxy.java"
 
 startProcessing "com\github\thedcplaya\carbontools\util\CarbonToolsTab.java" md5: 534792f924546668e9e46b6fe3417583
+Cache Hit!
 @|com\github\thedcplaya\carbontools\util\CarbonToolsTab.java|8|46|com.github.thedcplaya.carbontools.util|package|com.github.thedcplaya.carbontools.util|(file)
 Class Start: com.github.thedcplaya.carbontools.util.CarbonToolsTab
    @|com\github\thedcplaya\carbontools\util\CarbonToolsTab.java|258|272|CarbonToolsTab|class|com.github.thedcplaya.carbontools.util.CarbonToolsTab
@@ -721,6 +738,7 @@ Class End  : com.github.thedcplaya.carbontools.util.CarbonToolsTab
 endProcessing "com\github\thedcplaya\carbontools\util\CarbonToolsTab.java"
 
 startProcessing "com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java" md5: 98302097bbd3810f3176e95fa8bfa2d2
+Cache Hit!
 @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|8|57|com.github.thedcplaya.carbontools.worldgeneration|package|com.github.thedcplaya.carbontools.worldgeneration|(file)
 Class Start: com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen
    @|com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java|440|451|ModWorldGen|class|com.github.thedcplaya.carbontools.worldgeneration.ModWorldGen

@@ -1,56 +1,74 @@
 Symbol range map extraction starting
 Processing 18 files
-startProcessing "com\github\thedcplaya\carbontools\CarbonTools.java" md5: 0d909011068c039daaf6b10efd647248
+startProcessing "com\github\thedcplaya\carbontools\CarbonTools.java" md5: 1ee672757e6dd4a4c07d8144f79918e0
+Cache Hit!
 endProcessing "com\github\thedcplaya\carbontools\CarbonTools.java"
 
 startProcessing "com\github\thedcplaya\carbontools\block\BlockBase.java" md5: b0781beeac64cedb57315695fa8df143
+Cache Hit!
 endProcessing "com\github\thedcplaya\carbontools\block\BlockBase.java"
 
 startProcessing "com\github\thedcplaya\carbontools\block\BlockCarbon.java" md5: 881cefe95ac0b03666dcda394ba5927f
+Cache Hit!
 endProcessing "com\github\thedcplaya\carbontools\block\BlockCarbon.java"
 
 startProcessing "com\github\thedcplaya\carbontools\block\BlockOre.java" md5: c8c5250008a363289816dfa89ad8c2d9
+Cache Hit!
 endProcessing "com\github\thedcplaya\carbontools\block\BlockOre.java"
 
 startProcessing "com\github\thedcplaya\carbontools\block\ModBlocks.java" md5: 251bba015067cb6826f18d89b5fa4324
+Cache Hit!
 endProcessing "com\github\thedcplaya\carbontools\block\ModBlocks.java"
 
 startProcessing "com\github\thedcplaya\carbontools\item\ItemBase.java" md5: effb02a758ab197dedee840bb6743b4b
+Cache Hit!
 endProcessing "com\github\thedcplaya\carbontools\item\ItemBase.java"
 
 startProcessing "com\github\thedcplaya\carbontools\item\ModItems.java" md5: 01d98ae1bf7ab05724573501c620c8d5
+Cache Hit!
 endProcessing "com\github\thedcplaya\carbontools\item\ModItems.java"
 
 startProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java" md5: 08c2c1a96c3df62f46fa2aaca70cb466
+Cache Hit!
 endProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemAxe.java"
 
 startProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java" md5: 8be57d3b2a2a51e30dc56e89b1e5aedf
+Cache Hit!
 endProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemHoe.java"
 
 startProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java" md5: 26d161c90338e09f5d9540c22dde5a6e
+Cache Hit!
 endProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemPickaxe.java"
 
 startProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java" md5: 1e4a145e6a52cfd123e3fb3867098ad6
+Cache Hit!
 endProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemShovel.java"
 
 startProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemSword.java" md5: 8d7661c9566adcc5542d9c0774bed72a
+Cache Hit!
 endProcessing "com\github\thedcplaya\carbontools\item\Tool\ItemSword.java"
 
 startProcessing "com\github\thedcplaya\carbontools\item\armor\ItemArmor.java" md5: 7a285d9fe6a9f83315bf0775d197ffbd
+Cache Hit!
 endProcessing "com\github\thedcplaya\carbontools\item\armor\ItemArmor.java"
 
 startProcessing "com\github\thedcplaya\carbontools\modrecipes\ModRecipes.java" md5: f1b640c878116ebb6fcbcce1fada814f
+Cache Hit!
 endProcessing "com\github\thedcplaya\carbontools\modrecipes\ModRecipes.java"
 
 startProcessing "com\github\thedcplaya\carbontools\proxy\ClientProxy.java" md5: bdea8c9c13722915b35a53032755bf99
+Cache Hit!
 endProcessing "com\github\thedcplaya\carbontools\proxy\ClientProxy.java"
 
 startProcessing "com\github\thedcplaya\carbontools\proxy\CommonProxy.java" md5: 745d37f14bff8e65ae67ca8fe4b1090c
+Cache Hit!
 endProcessing "com\github\thedcplaya\carbontools\proxy\CommonProxy.java"
 
 startProcessing "com\github\thedcplaya\carbontools\util\CarbonToolsTab.java" md5: 534792f924546668e9e46b6fe3417583
+Cache Hit!
 endProcessing "com\github\thedcplaya\carbontools\util\CarbonToolsTab.java"
 
 startProcessing "com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java" md5: 98302097bbd3810f3176e95fa8bfa2d2
+Cache Hit!
 endProcessing "com\github\thedcplaya\carbontools\worldgeneration\ModWorldGen.java"
 
